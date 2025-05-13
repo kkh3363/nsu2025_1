@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>마당서점 도서목록</title>
+    </head>
+    <body>
+        <h2>마당서점 도서목록</h2>
+        <table border=1>
+            <thead>
+                <tr>
+                    <th>책이름</th>
+                    <th>출판사</th>
+                    <th>가격</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in book_list %}
+                <tr>
+                    <td><a href='/view?id={{i[0]}}'>  {{ i[1] }} </a> </td>
+                    <td>{{ i[2] }}</td>
+                    <td>{{ i[3] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
