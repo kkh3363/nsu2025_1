@@ -1,6 +1,6 @@
 ### 자료 링크
 - [Workbench 다운로드](https://dev.mysql.com/downloads/workbench/)
-
+- [visual studio code](https://code.visualstudio.com/)
 - 
 ### mysql 접속
 1. workbench 로 접속
